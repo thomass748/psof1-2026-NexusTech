@@ -1,0 +1,12 @@
+RF01 -> /cadastrar -> Cadastra os pets e suas caracteristicas e também os tutores no banco de dados com nome e email
+RF02 -> /marcarHorario -> Agenda horarios marcados pelos clientes, registrando o tipo e de atendimento e tutor responavel
+RF03 -> /desmarcar -> Permite que o cliente desagende o horario, deletando-o da agenda da loja
+RF04 -> /disponivel -> Mostra os horarios disponiveis na agenda em um pequena tela
+RF05 -> /pagamento -> Registra o pagamento e confirmação de consulta diretamente de aplicativo
+RNF01-> (parte de frontend)
+RNF02-> /velocidade -> Faz os processos rodarem de forma rapida
+RNF03-> /modulo -> Registra mais de uma forma de pagamento para o sistema
+RNF04-> /fotos -> Guarda fotos dos pets antes e depois de serviços e disponibiliza ao cliente
+RNF05-> /responsivo -> Garante suporte para queo sistema funcione em mais de um tipo de dispositivo
+RN01 -> /vacina -> So permite que o agendamento seja completo caso o pet seja vacinado (confira no banco de dados)
+RN02 -> /mesmoHorario -> bloqueia tentativas de agendar consultas em horarios ja marcados na agenda
